@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es6",
+    "types": [
+      "body-parser",
+      "cookie-parser",
+      "debug",
+      "express",
+      "morgan",
+      "node",
+      "serve-favicon",
+      "socket.io"
+    ]
+  },
+  "extends": "../tsbase"
+}

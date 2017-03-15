@@ -1,0 +1,21 @@
+{
+  "apps" : [
+    {
+      "name": "ansa-app",
+      "script": "server/dist/bin/www.js",
+      "env": {
+        "DEBUG": "WWW:*",
+        "NODE_ENV": "development",
+        "PORT": "3000",
+        "URL": "http://localhost"
+      },
+      "env_staging": {
+        "NODE_ENV": "staging"
+      },
+      "env_production": {
+        "DEBUG": "",
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
